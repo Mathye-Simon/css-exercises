@@ -6,7 +6,7 @@
 /* targets all the elements with the id secondElement */
 #secondElement {
     color:rgb(13, 13, 212);
-    font-size: 36;
+    font-size: 36px;
 }
 /* A nice one I didnt know, you can assign an element 2 classes by separating with space when asigning a class */
 /* targets all elements inside the class oddNumber with the class specialClass :/ */
