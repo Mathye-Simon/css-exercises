@@ -1,0 +1,18 @@
+/* targets all the elements with the class oddNumber */
+.oddNumber {
+    font-family: "Verdana", "Dejavu Sans", sans-serif;
+    background-color: rgb(252, 212, 219);
+}
+/* targets all the elements with the id secondElement */
+#secondElement {
+    color:rgb(13, 13, 212);
+    font-size: 36;
+}
+/* A nice one I didnt know, you can assign an element 2 classes by separating with space when asigning a class */
+/* targets all elements inside the class oddNumber with the class specialClass :/ */
+.oddNumber.specialClass {
+    font-size: 27px;
+}
+#fouthElement {
+    background-color: rgb(9, 199, 9);
+}
