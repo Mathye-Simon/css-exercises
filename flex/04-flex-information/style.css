@@ -31,8 +31,8 @@ img {
   justify-content: space-around;
   gap:52px;
 }
-
-.div1,.div2,.div3,.div4 {
+/* instead of using different classes  I used 1 for divs containing information */
+.info {
   display: flex;
   flex-direction: column;
   align-items: center;
