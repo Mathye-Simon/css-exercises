@@ -26,7 +26,10 @@ ul {
   padding: 0px;
   display: flex;
   justify-content: space-between;
+  /* gap is the space between the elements inside the ul, and margin targets the margin of the ul itself */
   gap: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 a {
