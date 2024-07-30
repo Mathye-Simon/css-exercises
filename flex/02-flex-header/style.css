@@ -4,8 +4,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
   justify-content: space-between;
+  padding: 8px;
 }
 
 
@@ -14,22 +14,18 @@
   font-weight: 900;
   color: tomato;
   background: white;
-  padding: 10px 32px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding: 4px 32px; 
 }
 /* awesome solution applied here, instead of using display: inline on the a elements i just say display flex
 on the parent which is the ul! */
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
-  padding: 0px;
+  padding: 8px;
   display: flex;
-  justify-content: space-between;
-  /* gap is the space between the elements inside the ul, and margin targets the margin of the ul itself */
+  justify-content: space-between; 
+  /* gap is the space between the elements inside the ul */
   gap: 8px;
-  margin-left: 8px;
-  margin-right: 8px;
 }
 
 a {
@@ -38,4 +34,17 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+.header  {
+  font-family: monospace;
+  background: papayawhip;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 900;
+  color: tomato;
+  background: white;
+  padding: 4px 32px;
 }
