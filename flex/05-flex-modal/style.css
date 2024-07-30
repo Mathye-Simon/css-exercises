@@ -30,14 +30,14 @@ body {
   font-size: 26px;
   font-weight: 700;
   background: lavender;
-  width: 200px;
+  width: 42px;
   height: 42px; 
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  padding: 0px;
+  /* from my understanding flex shrink makes it so that a div occupies the whole space regardless of text */
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -82,6 +82,5 @@ button.cancel {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* height:42px; */
 }
 
